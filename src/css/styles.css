@@ -27,6 +27,10 @@ header {
     justify-content: center;
 }
 
+.sing-in a {
+    text-decoration: none;
+}
+
 .sing-up button {
     margin-right: 75px;
     background-color: #294380;
@@ -51,10 +55,32 @@ header {
 
 .login-section {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     width: 449px;
     height: 515px;
     background-color: #ffffff;
     border-radius: 40px;
+    gap: 26px;
+}
+
+.login-section input {
+    width: 356px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    text-align: start;
+    color: #6B6262;
+    font-size: 12px;
+}
+
+.login-section p {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-left: 46px;
+    color: #6B6262;
+    font-size: 12px;
 }
