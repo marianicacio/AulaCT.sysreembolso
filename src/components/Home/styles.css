@@ -1,0 +1,14 @@
+body {
+        font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 59px;
+}
+
+a {
+    text-decoration: none;
+}
