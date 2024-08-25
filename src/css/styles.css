@@ -84,3 +84,12 @@ header {
     color: #6B6262;
     font-size: 12px;
 }
+
+.login-section button {
+    width: 183px;
+    height: 43px;
+    border-radius: 15px;
+    background-color: #294380;
+    color: white;
+    border: none;
+}
