@@ -1,44 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
 body {
-        font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #0D0F36;
-    font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #0D0F36;
+  font-size: 20px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .progress-bar {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background:
+    radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#69d2cd 25%, #294380 0);
 }
 
-  .progress-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: 
-      radial-gradient(closest-side, white 79%, transparent 80% 100%),
-      conic-gradient(hotpink 25%, pink 0);    
-  }
-  
-  .progress-bar::before {
-    content: "3 processos abertos";
-    width: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-  }
+.progress-bar::before {
+  content: "3 processos abertos";
+  width: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 161px;
+}
+
+.process-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 158px;
+  gap: 144px;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 123px;
+  background-color: #69D2CD;
+  border-radius: 10px;
+}
+
+.process p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.process button {
+  background-color: transparent;
+  border: none;
+}
+
+.process button:hover {
+  width: 128px;
+  height: 123px;
+  background-color: #b9f1d6;
+  transition: 1.5s;
+  border-radius: 10px;
+}
+
+.check-request p {
+  margin-right: 630px;
+}
+
+.check-request a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-coin {
+  margin-top: 103px;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 162px;
+}
+
+.orders h1 {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.orders-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 79px;
+  align-items: center;
+  text-align: center;
+  margin-top: 88px;
+}
+
+.orders-card h1 {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.orders-card p {
+  width: 329px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.orders-arrow {
+  margin-top: 140px;
+}
+
+.orders-add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 178px;
+}
+
+.orders-add h1 {
+  font-family: 'Mitr';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.orders-add p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-top: -10px;
+}
