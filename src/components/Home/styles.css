@@ -372,3 +372,74 @@ footer h1 {
   text-align: center;
   color: #FFFFFF;
 }
+
+@media (max-width: 420px) {
+  header a {
+    display: none;
+  }
+
+  .process-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .check-request p {
+    display: none;
+  }
+
+  .orders h1 {
+    width: 316px;
+  }
+
+  .orders-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questions {
+    display: flex;
+    background-color: #ECECEC;
+    width: 338px;
+    height: 39px;
+    border-radius: 10px;
+    gap: 430px;
+  }
+
+  .questions p {
+    width: 2197px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .questions a {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: center;
+    background-color: #0D0F36;
+    margin-top: 220px;
+    width: 100%;
+    height: 671px;
+  }
+
+  .footer-phone {
+    display: flex;
+    margin-top: 70px;
+    gap: 0px;
+    color: white;
+    margin-left: 20px;
+  }
+
+}
