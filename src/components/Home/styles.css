@@ -203,8 +203,8 @@ a {
 
 .container {
   margin-top: 106px;
-  width: 400px;
-  height: 230px;
+  width: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   /*  box-shadow is from materialize css's website */
@@ -440,6 +440,10 @@ footer h1 {
     gap: 0px;
     color: white;
     margin-left: 20px;
+  }
+
+  .footer-phone p {
+    text-decoration: none;
   }
 
 }
