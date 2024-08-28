@@ -93,3 +93,21 @@ header {
     color: white;
     border: none;
 }
+
+@media (max-width: 420px) {
+    
+    .login-section {
+        width: 300px;
+    }
+
+    .login-section input {
+        width: 256px;
+        height: 55px;
+        border-radius: 10px;
+        border: none;
+        background-color: #D9D9D9;
+        text-align: start;
+        color: #6B6262;
+        font-size: 12px;
+    }
+}
