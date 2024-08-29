@@ -373,7 +373,7 @@ footer h1 {
   color: #FFFFFF;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   header a {
     display: none;
   }
